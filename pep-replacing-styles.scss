@@ -20,10 +20,10 @@
 .yt-play {cursor: pointer; position: absolute; top: 42%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); font-size: 70px; color: #ff0000; font-family: "fontello"; font-weight: 400; margin: 0; font-style: normal; content: "\e80e"; }
 .yt-play:hover { color:  #4d4d4d; }
 
-$primary: #2D80C3;
-$secondary:#1AB6D6;
-$font: "open-sans", sans-serif;
-$font2: "droid-serif", serif;
+$primary: #0059A6;
+$secondary:#3A4852;
+$font: "lato", sans-serif;
+$font2: "dashiell-fine", serif;
 $text: #000;
 $icon-bkg: rgba(48, 53, 52,.05);
 
@@ -168,12 +168,12 @@ p {
 
 /*Use it or Lose it Page*/
 .reorder-top {display: block;}
-.smile .top .big {color: $text; font-size: 26px; line-height: 35px;font-weight: normal; letter-spacing: normal;}
+.smile .top .big {color: $text; font-size: 28px; line-height: 35px;font-weight: normal; letter-spacing: normal;}
 .bg-1{background-color: #fff; padding: 10px;}
 .bg-2{background-color: $secondary; padding: 10px;}
 
 #benefits {max-width: 1300px;
-    h2 {font-size: 85px;color: #5C5952}
+    h2 {font-size: 85px;color: #000}
     .flex-ed {margin: 50px auto;
         .benefit {margin: auto 10px;
             &:nth-of-type(3) {h3 {font-size: 50px;}}
@@ -213,7 +213,7 @@ p {
 }
 .use-it-top-image p {color: $text;}
 .smile {
-    h1 {color: #5C5952; font: 500 90px/1 $font2;line-height: 95px;
+    h1 {color: #000; font: 500 90px/1 $font2;line-height: 95px;
         span {font-family: $font2;}
     }
     article p { &.big{font-weight: normal; font-size: 26px; text-align: center; color: #1a1a1a;}}
@@ -227,7 +227,11 @@ p {
             }
             figure{flex: 0 0 400px; position: relative;
                 img {margin: 0;width: 100%;}
-                figcaption { background-color: rgba(255,255,255,0.9); bottom: 0;width: 100%; position: absolute; text-transform: uppercase; padding: 5px 15px; font-weight: 700; font-size: 18px;}
+                figcaption { background-color: rgba(255,255,255,0.9); bottom: 0;width: 100%; position: absolute; text-transform: uppercase; padding: 5px 15px; font-weight: 700; font-size: 18px;
+                    a {
+                        &:hover {color: $primary;}
+                    }
+                }
             }
         }
     }
@@ -310,7 +314,9 @@ footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #ff
         &:after {content: ''; background-color: $primary; position: absolute; height: 4px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-    .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 20px auto;}
+    .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 20px auto;
+        &:hover {color: $primary;}
+    }
     .phone {font-size: 41px;}
     form{padding: 0 !important;}}
     .form {background: none !important;
@@ -320,7 +326,7 @@ footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #ff
         }
     }
     .split{justify-content:center;max-width:95vw;align-items:flex-start;margin:auto;margin-bottom:30px; flex-flow: nowrap;
-        article{margin-top:10px; flex: 0 1 30%;padding:20px 25px 20px; align-items: center;
+        article{margin-top:10px; flex: 0 1 30%;padding:20px 25px 20px; align-items: center;justify-content: flex-start;height: 500px;
             &:last-of-type {
                 h2 {margin-bottom: 40px;}
             }
@@ -332,7 +338,13 @@ footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #ff
                 strong {text-transform:uppercase; font-weight: 400;}
             
             }
-            
+            #hours {
+                span {display: flex;font-family: $font;font-size: 20px;width: 300px;
+                    margin: 10px auto;
+                    flex-wrap: wrap;
+                    justify-content: space-between;}
+            }
+            > span {margin-top: auto;width: 300px;text-align: left;}
         }
     }
     figure{margin-top:10px;flex:0 1 540px;color:#fff; padding: 20px 0;}
@@ -342,7 +354,7 @@ footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #ff
 }
 
 figcaption{text-align:center; background: #000; text-transform: uppercase; padding: 5px;
-    span{font-family: $font2; font-weight: bold; font-size: 16px; color: #fff}
+    span{font-family: $font2; font-weight: bold; font-size: 16px; margin: 0 5px;}
     p{font:400 18px/1 $font; text-transform:uppercase;color:#fff}
     strong{margin-top:0;font-weight:400;display:block; font-size: 22px; font-family: $font; text-transform: uppercase; margin-bottom: 0;}
     .address {color: $text; text-transform: uppercase; font-weight: 700; letter-spacing: .15em; font-size: 14px; &:hover {color: $primary;}}
@@ -529,3 +541,11 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .use-it-top-image div figcaption span {padding: 10px 20px;}
     .double-list .flex-ed .option-list .list-body .list-bkg {display: none;}
 }
+
+/* -- for third party form -- */
+@media (max-width: 820px) {
+    .ctm-call-widget {height: 655px!important;}
+    }
+    @media (min-width: 820px) {
+    .ctm-call-widget {height: 500px!important;}
+    }

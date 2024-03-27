@@ -570,16 +570,16 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #2D80C3;
+  background-color: #0059A6;
 }
 
 #fixed-tabs .call {
-  background-color: #1AB6D6;
+  background-color: #3A4852;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #2D80C3;
+  background-color: #0059A6;
 }
 
 #fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {
@@ -613,12 +613,12 @@ body {
   background: #fff;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "open-sans", sans-serif;
+  font: 400 18px/26px "lato", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "open-sans", sans-serif;
+  font: 400 18px/1.6 "lato", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -626,22 +626,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #1AB6D6;
+  color: #3A4852;
 }
 
 a:hover {
-  color: #1AB6D6;
+  color: #3A4852;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "open-sans", sans-serif;
+  font-family: "lato", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #1AB6D6;
-  font: 400 50px/1.3 "droid-serif", serif;
+  color: #3A4852;
+  font: 400 50px/1.3 "dashiell-fine", serif;
   letter-spacing: 1.1px;
 }
 
@@ -651,26 +651,26 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "droid-serif", serif;
-  color: #1AB6D6;
+  font: normal 142px/1.1 "dashiell-fine", serif;
+  color: #3A4852;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "droid-serif", serif;
+  font-family: "dashiell-fine", serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "droid-serif", serif;
+  font-family: "dashiell-fine", serif;
   font-weight: normal;
   font-size: 88px !important;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "droid-serif", serif;
-  color: #1AB6D6;
+  font: 700 30px/1 "dashiell-fine", serif;
+  color: #3A4852;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -714,7 +714,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "open-sans", sans-serif, sans-serif;
+  font: 700 15px/1 "lato", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -742,11 +742,11 @@ main ul li:before {
 }
 
 .play:hover {
-  color: #1AB6D6;
+  color: #3A4852;
 }
 
 .play:hover i {
-  background-color: #1AB6D6;
+  background-color: #3A4852;
   color: #fff;
 }
 
@@ -754,7 +754,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #2D80C3;
+  background-color: #0059A6;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -773,7 +773,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #23659a;
+  background-color: #003e73;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -792,9 +792,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #2D80C3;
+  background-color: #0059A6;
   min-width: 250px;
-  font: 700 13px/1.1 "open-sans", sans-serif;
+  font: 700 13px/1.1 "lato", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -823,7 +823,7 @@ header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #2D80C3;
+  background-color: #0059A6;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -834,13 +834,13 @@ header #nav a.btn {
   border-radius: 40px;
   color: #fff;
   font-size: 24px;
-  font-family: "open-sans", sans-serif;
+  font-family: "lato", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #1AB6D6;
+  background-color: #3A4852;
 }
 header #nav a.btn i {
-  color: #2D80C3;
+  color: #0059A6;
 }
 header #nav a.btn i:before {
   background-color: #fff;
@@ -887,7 +887,7 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   text-align: center;
 }
 header #nav #mobile-btns .phone {
-  background-color: #2D80C3;
+  background-color: #0059A6;
   font-size: 20px;
   line-height: 1.3;
   color: #fff;
@@ -910,7 +910,7 @@ header #nav .phone {
   font-size: 32px;
 }
 header #nav .phone:hover {
-  color: #2D80C3;
+  color: #0059A6;
 }
 header #nav .phy {
   font-size: 22px;
@@ -920,17 +920,17 @@ header #nav .phy {
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #2D80C3;
+  color: #0059A6;
 }
 
 .phone {
-  color: #2D80C3;
-  font: 700 30px/30px "open-sans", sans-serif;
+  color: #0059A6;
+  font: 700 30px/30px "lato", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #1AB6D6;
+  color: #3A4852;
 }
 .phone span {
   display: block;
@@ -1013,7 +1013,7 @@ p.big {
 
 .smile .top .big {
   color: #000;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 35px;
   font-weight: normal;
   letter-spacing: normal;
@@ -1025,7 +1025,7 @@ p.big {
 }
 
 .bg-2 {
-  background-color: #1AB6D6;
+  background-color: #3A4852;
   padding: 10px;
 }
 
@@ -1034,7 +1034,7 @@ p.big {
 }
 #benefits h2 {
   font-size: 85px;
-  color: #5C5952;
+  color: #000;
 }
 #benefits .flex-ed {
   margin: 50px auto;
@@ -1055,7 +1055,7 @@ p.big {
   text-align: left;
   margin: 20px;
   font-size: 57px;
-  font-family: "open-sans", sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 500;
   color: #000;
 }
@@ -1063,7 +1063,7 @@ p.big {
   content: "";
   width: 40px;
   height: 3px;
-  background-color: #2D80C3;
+  background-color: #0059A6;
   position: absolute;
   left: 20px;
 }
@@ -1162,12 +1162,12 @@ p.big {
 }
 
 .smile h1 {
-  color: #5C5952;
-  font: 500 90px/1 "droid-serif", serif;
+  color: #000;
+  font: 500 90px/1 "dashiell-fine", serif;
   line-height: 95px;
 }
 .smile h1 span {
-  font-family: "droid-serif", serif;
+  font-family: "dashiell-fine", serif;
 }
 .smile article p.big {
   font-weight: normal;
@@ -1195,13 +1195,13 @@ p.big {
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "open-sans", sans-serif;
+  font-family: "lato", sans-serif;
   text-align: left;
   letter-spacing: -0.02em;
   line-height: 60px;
 }
 .smile .content .call article a {
-  color: #2D80C3;
+  color: #0059A6;
 }
 .smile .content .call article a:hover {
   color: #000;
@@ -1223,6 +1223,9 @@ p.big {
   padding: 5px 15px;
   font-weight: 700;
   font-size: 18px;
+}
+.smile .content .call figure figcaption a:hover {
+  color: #0059A6;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1276,6 +1279,7 @@ p.big {
 }
 .smile .form .simple .btn {
   width: 100%;
+  margin-top: 10px;
 }
 .smile .form ::-webkit-input-placeholder {
   color: #000;
@@ -1312,7 +1316,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #2D80C3;
+  color: #0059A6;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1332,7 +1336,7 @@ p.big {
   color: #fff !important;
   margin-bottom: 50px;
   font-weight: bold;
-  font-family: "open-sans", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 footer :is(input, textarea) {
@@ -1344,8 +1348,8 @@ footer :is(input, textarea) {
 }
 .factors h2 {
   color: white;
-  font: 500 55px/1 "open-sans", sans-serif;
-  background: #1AB6D6;
+  font: 500 55px/1 "lato", sans-serif;
+  background: #3A4852;
   padding: 25px 15px;
   margin: 0;
 }
@@ -1359,7 +1363,7 @@ footer :is(input, textarea) {
   background: rgba(48, 53, 52, 0.05);
 }
 .factors [class*=row] p {
-  font: 500 22px/1 "open-sans", sans-serif;
+  font: 500 22px/1 "lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -1367,7 +1371,7 @@ footer :is(input, textarea) {
   margin: auto;
 }
 .factors .icon rect, .factors .icon path {
-  fill: #2D80C3;
+  fill: #0059A6;
 }
 
 .fo-form {
@@ -1485,7 +1489,7 @@ footer {
   background: #fff;
 }
 footer h2 {
-  font: 500 45px/1.2 "open-sans", sans-serif;
+  font: 500 45px/1.2 "lato", sans-serif;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1493,7 +1497,7 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #2D80C3;
+  background-color: #0059A6;
   position: absolute;
   height: 4px;
   width: 85px;
@@ -1502,11 +1506,14 @@ footer h2:after {
   transform: translate(50%);
 }
 footer article .phy {
-  font-family: "open-sans", sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #000;
   margin: 20px auto;
+}
+footer article .phy:hover {
+  color: #0059A6;
 }
 footer article .phone {
   font-size: 41px;
@@ -1537,6 +1544,8 @@ footer .split article {
   flex: 0 1 30%;
   padding: 20px 25px 20px;
   align-items: center;
+  justify-content: flex-start;
+  height: 500px;
 }
 footer .split article:last-of-type h2 {
   margin-bottom: 40px;
@@ -1544,7 +1553,7 @@ footer .split article:last-of-type h2 {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "open-sans", sans-serif;
+  font: 400 32px/1.2 "lato", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1553,7 +1562,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #2D80C3;
+  color: #0059A6;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1566,6 +1575,20 @@ footer .split article p:last-of-type {
 footer .split article p strong {
   text-transform: uppercase;
   font-weight: 400;
+}
+footer .split article #hours span {
+  display: flex;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  width: 300px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .split article > span {
+  margin-top: auto;
+  width: 300px;
+  text-align: left;
 }
 footer figure {
   margin-top: 10px;
@@ -1594,13 +1617,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "droid-serif", serif;
+  font-family: "dashiell-fine", serif;
   font-weight: bold;
   font-size: 16px;
-  color: #fff;
+  margin: 0 5px;
 }
 figcaption p {
-  font: 400 18px/1 "open-sans", sans-serif;
+  font: 400 18px/1 "lato", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1609,7 +1632,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "open-sans", sans-serif;
+  font-family: "lato", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1621,10 +1644,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #2D80C3;
+  color: #0059A6;
 }
 figcaption:hover p {
-  color: #2D80C3;
+  color: #0059A6;
 }
 
 .stamp {
@@ -1640,23 +1663,23 @@ figcaption:hover p {
   padding: 45px 10px;
   background-color: #fff;
   margin: auto;
-  font: 400 18px/1.4 "open-sans", sans-serif;
+  font: 400 18px/1.4 "lato", sans-serif;
   color: #1a1a1a;
 }
 .copy a, .copy p {
-  font: 400 18px/1.4 "open-sans", sans-serif;
+  font: 400 18px/1.4 "lato", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #2D80C3;
+  color: #0059A6;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #1AB6D6;
+  color: #3A4852;
   text-decoration: underline;
 }
 .copy span {
@@ -1671,8 +1694,8 @@ figcaption:hover p {
   font-size: 16px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #2D80C3;
-  background-color: #2D80C3;
+  border: 1px solid #0059A6;
+  background-color: #0059A6;
   color: #fff;
   text-transform: uppercase;
 }
@@ -1699,7 +1722,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #2D80C3;
+  box-shadow: inset 0 -3px 0 #0059A6;
 }
 
 hr {
@@ -1877,6 +1900,12 @@ hr {
   footer .split article {
     flex: 100%;
     padding: 30px 0 0;
+  }
+}
+@media (max-width: 790px) {
+  #benefits .flex-ed .benefit figure {
+    max-width: 90%;
+    margin: auto;
   }
 }
 @media (max-width: 740px) {
@@ -2106,4 +2135,15 @@ hr {
   .double-list .flex-ed .option-list .list-body .list-bkg {
     display: none;
   }
-}/*# sourceMappingURL=2023-pep-healthy-smiles.css.map */
+}
+/* -- for third party form -- */
+@media (max-width: 820px) {
+  .ctm-call-widget {
+    height: 655px !important;
+  }
+}
+@media (min-width: 820px) {
+  .ctm-call-widget {
+    height: 500px !important;
+  }
+}/*# sourceMappingURL=pep-replacing-styles.css.map */
